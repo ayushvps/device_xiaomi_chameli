@@ -9,10 +9,7 @@ git clone --depth=1 https://github.com/lordgaruda/vendor_xiaomi_camellia vendor/
 git clone --depth=1 https://github.com/xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr -b lineage-20               
 
 # Hardware Mediatek
-git clone --depth=1 https://github.com/lordgaruda/android_hardware_mediatek -b lineage-20 hardware/mediatek
+git clone https://github.com/PQEnablers-Devices/android_hardware_mediatek.git -b lineage-20-foss hardware/mediatek
 
 # Hardware Xiaomi
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
-
-# Signing
-git clone --depth=1 https://github.com/AuroraDroid/lineage-priv vendor/lineage-priv
