@@ -24,3 +24,9 @@ ro.zram.periodic_wb_delay_hours=24
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Spark-OS
+ro.spark.device.name=camellia
+ro.spark.group.url=https://t.me/ayushbuildforcamellia
+ro.spark.maintainer=Ayush
+ro.spark.maintainer.username=fnayush

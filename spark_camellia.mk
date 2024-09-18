@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/camellia/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := arrow_camellia
+PRODUCT_NAME := spark_camellia
 PRODUCT_DEVICE := camellia
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
@@ -32,5 +32,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Redmi/camellia/camellia:12/SP1A.210812.016/V14.0.6.0.TKTMIXM:user/release-keys
 
 #gapps
-arrow_gapps=true
-ARROW_GAPPS=true
+WITH_GAPPS=true
+
+BUILD_WITH_GAPPS=true
