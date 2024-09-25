@@ -5,9 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_camellia.mk
+    $(LOCAL_DIR)/aosp_camellia.mk \
+    $(LOCAL_DIR)/lineage_camellia.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_camellia-user \
-    spark_camellia-userdebug \
-    spark_camellia-eng
+    lineage_camellia-user \
+    lineage_camellia-userdebug \
+    lineage_camellia-eng \
