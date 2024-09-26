@@ -3,7 +3,7 @@
 git clone --depth=1 https://github.com/dm700-devs/device_xiaomi_camellia-kernel device/xiaomi/camellia-kernel
 
 # Device Vendor Tree
-git clone --depth=1 git@github.com:ayushqui/vendor_xiaomi_chameli.git vendor/xiaomi/camellia -b dolby
+git clone --depth=1 https://github.com/ayushqui/vendor_xiaomi_chameli.git vendor/xiaomi/camellia -b dolby
 
 # Sepolicies
 rm -rf device/mediatek/sepolicy_vndr && git clone --depth=1 https://github.com/xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr -b lineage-20               
