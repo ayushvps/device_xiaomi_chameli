@@ -1,6 +1,6 @@
 
 # Kernel 
-git clone --depth=1 https://github.com/dm700-devs/device_xiaomi_camellia-kernel device/xiaomi/camellia-kernel
+git clone --depth=1 https://github.com/ayushvps/kernel_xiaomi_camellia.git kernel/xiaomi/camellia
 
 # Device Vendor Tree
 git clone --depth=1 https://github.com/ayushqui/vendor_xiaomi_chameli.git vendor/xiaomi/camellia -b dolby
